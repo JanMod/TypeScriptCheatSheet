@@ -3,11 +3,16 @@ For C# Developers
 
 ## Similarities
 
+Static Typing
+Classes
+Generics
 
 ## Differences
 
+Instead of using statements in c#, there are typings and requires.
+Not all types are represented
 
-## Examples
+## Examples (side by side comparison)
 
 
 ## Progressive Enhancement
