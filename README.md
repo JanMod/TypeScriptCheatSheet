@@ -116,5 +116,7 @@ Concept | Code
 Type of a variable | `typeof varName`
 
 ##Contributors
+- Original Article/Author (http://www.sitepen.com/blog/2013/12/31/typescript-cheat-sheet/)
+- Byron Sommardahl (http://acklenavenue.com)
 - Bhagya Nirmaan Silva (http://about.me/bhagyas)
 
