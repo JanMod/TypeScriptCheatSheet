@@ -8,7 +8,7 @@ Typescript | C-Sharp
 `module` [ex](https://github.com/tastejs/todomvc/blob/gh-pages/examples/typescript-angular/js/controllers/TodoCtrl.ts#L3)| `namespace`
 `export` [ex](https://github.com/tastejs/todomvc/blob/gh-pages/examples/typescript-angular/js/controllers/TodoCtrl.ts#L11)| `public` (as in `public class`)
 `static` [ex](https://github.com/tastejs/todomvc/blob/gh-pages/examples/typescript-angular/js/controllers/TodoCtrl.ts#L19) | `static`
-`enum days { sun = 1, mon, tue, wed, thu, fri, sat }` | `enum days { sun = 1, mon, tue, wed, thu, fri, sat }`
+`enum days { mon = 1, tue, wed, thu, fri }` | `enum days { mon = 1, tue, wed, thu, fri }`
 `class` [ex](https://github.com/tastejs/todomvc/blob/gh-pages/examples/typescript-angular/js/services/TodoStorage.ts#L9) | `class`
 `interface` [ex](https://github.com/tastejs/todomvc/blob/gh-pages/examples/typescript-angular/js/interfaces/ITodoStorage.ts#L4) | `interface`
 `function` [ex](https://github.com/tastejs/todomvc/blob/gh-pages/examples/typescript-angular/js/directives/TodoFocus.ts#L9)| n/a
