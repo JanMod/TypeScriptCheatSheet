@@ -28,26 +28,17 @@ Typescript | C-Sharp
 
 ## Similarities
 
-Static Typing
-Classes
-Generics
+* Static Typing
+* Refactoring
+* Classes
+* Generics
+* Compile
 
-## Differences
+## Compiling
 
-Instead of using statements in c#, there are typings and requires.
-Not all types are represented
+TypeScript code cannot be executed directly. Like C#, TypeScript code must be "compiled" to run. While C# compiles to IL code, TS compiles to JavaScript. If you're working in Visual Studio, the compile step can be abstracted away so that you don't notice it. Sublime Text and some other popular text editors can even be extended to handle this step. But without this automation, you need a way to compile your TS. One way to do this is to use batch, rake, grunt, or gulp scripts. 
 
-## Examples (side by side comparison)
-
-
-## Progressive Enhancement
-
-
-## Requirements
-
-You have to add a "build" step to the process before your TypeScript files will "work".
-
-Here's an example build step from a gulpfile.js:
+Here's an example build step from a gulpfile.js that will build all ts files in two folders and place the compiled js files in another folder:
 ```
 gulp.task('build', ['clean'], function(){
 	console.log("Compiling TypeScript files from the /src folder and placing new JavaScript files in the '"+buildFolder+"' folder.")		
@@ -63,7 +54,6 @@ gulp.task('build', ['clean'], function(){
 		.pipe(gulp.dest(buildFolder));		
 });
 ```
-
 
 Lab
 ===
