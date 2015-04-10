@@ -18,6 +18,7 @@ Typescript | C-Sharp
 `new` | `new`
 `implements` | `:` (as in an interface)
 `extends` | `:` (as in a class)
+`/// <reference path='../_SomeModuleDevinition.ts' />`* | `using SomeNamespace`
 
 * with some caveats, of course.
 
