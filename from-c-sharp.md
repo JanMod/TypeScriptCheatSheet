@@ -61,7 +61,7 @@ Lab
 Try to re-write this C# string calculator in TypeScript:
 
 ```c-sharp
-namespace kata.specs
+namespace Katas
 {
     public class StringCalculator
     {
