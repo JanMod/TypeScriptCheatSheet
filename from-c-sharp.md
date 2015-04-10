@@ -9,6 +9,8 @@ Typescript | C-Sharp
 `export` | `public` (as in `public class`)
 `static` | `static`
 `class` | `class`
+`interface` | `interface`
+`function` | n/a
 `constructor() { .. }` | `ClassName() { .. }`
 `private` | `private` (implicit in C#)
 `public` (implicit in TypeScript) | `public`
