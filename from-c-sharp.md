@@ -5,22 +5,23 @@ For C# Developers
 
 Typescript | C-Sharp
 --- | --- | ---
-`module` | `namespace`
-`export` | `public` (as in `public class`)
-`static` | `static`
-`class` | `class`
-`interface` | `interface`
-`function` | n/a
+`module` [ex](https://github.com/tastejs/todomvc/blob/gh-pages/examples/typescript-angular/js/controllers/TodoCtrl.ts#L3)| `namespace`
+`export` [ex](https://github.com/tastejs/todomvc/blob/gh-pages/examples/typescript-angular/js/controllers/TodoCtrl.ts#L11)| `public` (as in `public class`)
+`static` [ex](https://github.com/tastejs/todomvc/blob/gh-pages/examples/typescript-angular/js/controllers/TodoCtrl.ts#L19) | `static`
+`class` [ex](https://github.com/tastejs/todomvc/blob/gh-pages/examples/typescript-angular/js/services/TodoStorage.ts#L9) | `class`
+`interface` [ex](https://github.com/tastejs/todomvc/blob/gh-pages/examples/typescript-angular/js/interfaces/ITodoStorage.ts#L4) | `interface`
+`function` [ex](https://github.com/tastejs/todomvc/blob/gh-pages/examples/typescript-angular/js/directives/TodoFocus.ts#L9)| n/a
 `constructor() { .. }` | `ClassName() { .. }`
 `private` | `private` (implicit in C#)
 `public` (implicit in TypeScript) | `public`
 `this`* | `this`
 `new` | `new`
-`implements` | `:` (as in an interface)
+`implements` [ex](https://github.com/tastejs/todomvc/blob/gh-pages/examples/typescript-angular/js/services/TodoStorage.ts#L9)| `:` (as in an interface)
 `extends` | `:` (as in a class)
 `/// <reference path='../_SomeModuleDevinition.ts' />`* | `using SomeNamespace`
 `variableArgumentParameter: string` | `string variableArgumentParameter`
 `{ property1: 'something' }` | `new { property1 = "something" }`
+`someMethod(anyArg: any){ ..}` [ex](https://github.com/tastejs/todomvc/blob/gh-pages/examples/typescript-angular/js/services/TodoStorage.ts#L17) | `public someMethod(object anyArg){ .. }`
 
 * with some caveats, of course.
 
