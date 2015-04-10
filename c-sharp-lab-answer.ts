@@ -1,4 +1,3 @@
-```typescript
 module Katas {
 	export class StringCalculator {
 			
@@ -30,4 +29,3 @@ module Katas {
 var calc = new Katas.StringCalculator();
 alert("Add: " + calc.Calculate("10+1+5"));
 alert("Subtract: " + calc.Calculate("10-1-5"));
-```
