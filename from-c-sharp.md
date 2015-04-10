@@ -20,6 +20,8 @@ Typescript | C-Sharp
 `extends` | `:` (as in a class)
 `/// <reference path='../_SomeModuleDevinition.ts' />`* | `using SomeNamespace`
 `variableArgumentParameter: string` | `string variableArgumentParameter`
+`{ property1: 'something' }` | `new { property1 = "something" }`
+
 * with some caveats, of course.
 
 ## Similarities
