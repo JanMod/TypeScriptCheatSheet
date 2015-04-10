@@ -19,7 +19,7 @@ Typescript | C-Sharp
 `implements` | `:` (as in an interface)
 `extends` | `:` (as in a class)
 `/// <reference path='../_SomeModuleDevinition.ts' />`* | `using SomeNamespace`
-
+`variableArgumentParameter: string` | `string variableArgumentParameter`
 * with some caveats, of course.
 
 ## Similarities
