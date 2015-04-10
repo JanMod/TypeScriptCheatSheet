@@ -1,6 +1,21 @@
 For C# Developers
 #############
 
+## Term Comparison
+
+Typescript | C-Sharp
+=== | === | ===
+`module` | `namespace`
+`export` | `public` (as in `public class`)
+`static` | `static`
+`class` | `class`
+`constructor() { .. }` | `ClassName() { .. }`
+`private` | `private` (implicit in C#)
+`public` (implicit in TypeScript) | `public`
+`this`* | `this`
+
+* with some caveats, of course.
+
 ## Similarities
 
 Static Typing
