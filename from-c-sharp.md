@@ -1,7 +1,7 @@
 For C# Developers
 #############
 
-## Term Comparison
+## Language Keyword Comparison
 
 Typescript | C-Sharp
 --- | --- | ---
@@ -13,6 +13,9 @@ Typescript | C-Sharp
 `private` | `private` (implicit in C#)
 `public` (implicit in TypeScript) | `public`
 `this`* | `this`
+`new` | `new`
+`implements` | `:` (as in an interface)
+`extends` | `:` (as in a class)
 
 * with some caveats, of course.
 
