@@ -63,3 +63,40 @@ gulp.task('build', ['clean'], function(){
 		.pipe(gulp.dest(buildFolder));		
 });
 ```
+
+
+Lab
+===
+
+Try to re-write this C# string calculator in TypeScript:
+
+```c-sharp
+namespace kata.specs
+{
+    public class StringCalculator
+    {
+        public int Calculate(string s)
+        {
+            if (s.Contains("-") && s.Contains("+"))
+                return 0;
+
+            if (s.Contains("-"))
+            {
+                var valuesSplitedByMinus = s.Split('-');
+                var result = Convert.ToInt32(valuesSplitedByMinus.First());
+                for (int i = 1; i < valuesSplitedByMinus.Length; i++)
+                    result -= Convert.ToInt32(valuesSplitedByMinus[i]);
+
+                return result;
+            }
+
+            var values = s.Split('+').Select(x => Convert.ToInt32(x));
+            return values.Sum();
+        }
+    }
+}
+```
+
+You can use the [TypeScript Playground](http://www.typescriptlang.org/Playground) to compile your TS to JS and then run the calculator. 
+
+Hint: Add a line at the bottom of your TS to execute the `Calculate` method so that you can see the results when you run.
