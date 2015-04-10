@@ -1,7 +1,7 @@
 For C# Developers
 #############
 
-## Language Keyword Comparison
+## Language Comparison
 
 Typescript | C-Sharp
 --- | --- | ---
