@@ -4,7 +4,7 @@ For C# Developers
 ## Term Comparison
 
 Typescript | C-Sharp
-=== | === | ===
+--- | --- | ---
 `module` | `namespace`
 `export` | `public` (as in `public class`)
 `static` | `static`
